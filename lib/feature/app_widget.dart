@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'feature.dart';
+
 class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -8,7 +10,7 @@ class AppWidget extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      home: LoginScreen(),
     );
   }
 }
